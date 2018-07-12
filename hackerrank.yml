@@ -1,0 +1,12 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  scoring:
+    command: bash score.sh
+  ide_config:
+    default_open_files:
+      - score.sh
+    project_menu:
+      run: jupyter notebook --NotebookApp.token='' --no-browser --ip=0.0.0.0 --port 8000
+      install: pip install jupyter --user
+      test: echo start
