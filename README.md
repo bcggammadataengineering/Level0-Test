@@ -4,9 +4,9 @@
 3. Unzip the file
 
 ####Running Code on pySpark####
-
-Execute  -> pip install -r requirements.txt --user
+##Install pySpark##  -> pip install -r requirements.txt --user
+## Submit pySpark code## -> spark-submit yourcode.py
 
 #####Running Code on Scala Spark####
-
-Execute -> source scala-spark.sh
+##Install Scala Spark## -> source scala-spark.sh
+##Run Scala Spark Code## -> spark-shell -i yourcode.scala
