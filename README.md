@@ -4,6 +4,7 @@
 3. Unzip the file
 
 ####Running Code on pySpark####
-Perform "pip install -r requirements.txt --user" in the terminal
+Execute  -> pip install -r requirements.txt --user
 
 #####Running Code on Scala Spark####
+source scala-spark.sh
