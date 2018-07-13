@@ -15,6 +15,7 @@ Run Scala Spark Code -> spark-shell -i yourcode.scala
 
 # Test Instructions
 1. Make sure you complete the code for each of the questions. 
+2. Please save your code in answers.py for pySpark and answers.scala for Scala-Spark (file already created)
 2. Although the User Interface shows 1 question but the initial text has all the 6 questions that needs to be answered. 
 3. The scoring script doesnt work, so dont rely on it. 
 4. We are looking for quality, efficiency and logic of your code and not the correct answer. Obviously, we would look for if your code actually works
