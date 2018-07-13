@@ -6,11 +6,9 @@
 3. Unzip the file  
 
 ## Running Code on pySpark  
-Install pySpark  -> source scala-spark.sh  
 Submit pySpark code -> spark-submit yourcode.py  
   
 ## Running Code on Scala Spark
-Install Scala Spark -> source scala-spark.sh  
 Run Scala Spark Code -> spark-shell -i yourcode.scala  
 
 # Test Instructions
