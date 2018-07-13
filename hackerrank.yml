@@ -9,7 +9,7 @@ configuration:
     project_menu:
       run: jupyter notebook --NotebookApp.token='' --no-browser --ip=0.0.0.0 --port 8000
       install: 
-       - pip install jupyter --user
-       - pip install -r requirements.txt --user
-       - source scala-spark.sh
+      - pip install jupyter --user
+      - pip install -r requirements.txt --user
+      - source scala-spark.sh
       test: echo start
